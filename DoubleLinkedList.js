@@ -165,17 +165,3 @@ l.pushBack(5);
 l.pushBack(6);
 l.pushFront(7);
 l.print();
-
-// l.popFront()
-// // l.popBack();
-// console.log("First:" + l.getFirst());
-// console.log("Last:" + l.getLast());
-// console.log("isEmpty:" + l.isEmpty());
-// l.insert(2, 10);
-// l.print();
-// console.log("-----------");
-// // l.delete(3);
-// l.print();
-// console.log("Size:" + l.getSize());
-// l.reverse();
-// l.print();

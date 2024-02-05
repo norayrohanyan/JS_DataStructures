@@ -137,11 +137,3 @@ class BST {
         this.in_order_traversal(this.root);
     }
 }
-
-let b = new BST();
-b.insert(8);
-b.insert(3);
-b.insert(9);
-b.insert(5);
-b.delete(9);
-b.print();

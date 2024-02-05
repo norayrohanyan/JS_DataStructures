@@ -155,36 +155,3 @@ class List {
         }
     }
 }
-
-let l = new List();
-l.pushBack(5);
-// l.pushBack(6);
-// l.pushBack(7);
-// l.pushBack(8);
-// l.pushBack(9);
-// console.log("first", l.getFirst());
-// console.log("last", l.getLast());
-//l.insert(1, 10);
- l.delete(1);
-// l.clear();
-// l.popBack();
-// l.popBack();
-//l.popBack();
-
-//l.print();
-console.log('---------');
-// l.pushFront(8);
-l.print();
-// console.log('---------');
-// l.popFront();
-// l.print();
-// console.log('---------');
-// l.popBack();
-// l.print();
-// console.log('---------');
-// console.log(l.Isempty());
-// console.log("Size:" + l.getSize());
-// // l.popFront();
-// // l.popFront();
-// // console.log(l.Isempty());
-

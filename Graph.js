@@ -33,16 +33,3 @@ class Graph {
         }
     }
 }
-
-let c = new Graph;
-c.addVertex(1);
-c.addVertex(2);
-c.addVertex(3);
-c.addVertex(4);
-c.addVertex(5);
-c.addEdges(1, 2);
-c.addEdges(1, 4);
-c.addEdges(2, 3);
-c.addEdges(4, 5);
-console.log(c)
-c.DFS(1);

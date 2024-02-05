@@ -37,22 +37,3 @@ class Queue {
         return this.#arr;
     }
 }
-
-const queue = new Queue();
-queue.pushBack(7);
-queue.pushBack(8);
-console.log(queue.print());
-queue.popFront();
-console.log(queue.print());
-//queue.popFront();
-queue.pushBack(8);
-console.log(queue.print());
-queue.pushBack(9);
-console.log(queue.print());
-console.log(queue.top());
-console.log(queue.getSize());
-queue.popFront();
-queue.popFront();
-console.log(queue.getSize());
-console.log(queue.isEmpty());
-

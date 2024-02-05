@@ -255,16 +255,3 @@ class List {
         }
     }
 }
-// console.log(15%5);
-// console.log(15%10);
-const h = new HashTable(5);
-h.set(3);
-h.set(4);
-h.set(1);
-h.set(15);
-h.set(883);
-// h.remove(883);
-// h.remove(3);
-// h.remove(3);
-console.log(h.get(883));
-console.log(h);
